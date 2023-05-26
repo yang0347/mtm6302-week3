@@ -8,7 +8,7 @@ const infoPara = document.getElementById("info")
 console.log(infoPara)
 console.dir(infoPara) // if console.log() shows us the string verson of the object(if refresh the web is not work) we can use console.dir() method 
 
-infoPara.textContent += "Abhay" // 在这一段中，不是这个段落=abhay。所以add “+”表示在这个句子后面加个东西
+infoPara.textContent += "Abhay" // 在这一段中，不是这个段落=Abhay。所以add “+”表示在这个句子后面加个东西
 
 
 
