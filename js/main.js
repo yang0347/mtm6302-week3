@@ -63,4 +63,8 @@ learnMore.setAttribute("target","_blank")
 //adding a class using classList
 learnMore.classList.add('btn')
 
-
+const fakeConsole = document.getElementById("box")
+fakeConsole.setAttribute("style",`
+background-color: powderblue;
+padding: 10px;
+bolder: 1px solid black;`) /*"width: 100px;bolder"这个是错误的，不能使用；在这里 */
