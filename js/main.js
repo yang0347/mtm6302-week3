@@ -24,6 +24,8 @@ container.style.margin = "0 auto"
 //finding all the elements using CSS selector
 let allNodes = document.querySelectorAll(".type")
 console.log(allNodes)
+//accessing the element on second position and setting its style. background (include color)
+allNodes[1].style.background = "cyan"
 
 
 
