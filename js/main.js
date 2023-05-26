@@ -67,4 +67,6 @@ const fakeConsole = document.getElementById("box")
 fakeConsole.setAttribute("style",`
 background-color: powderblue;
 padding: 10px;
-bolder: 1px solid black;`) /*"width: 100px;bolder"这个是错误的，不能使用；在这里, 所以要使用esc下面的那个键`` */
+border: 1px solid black;`) /*"width: 100px;bolder"这个是错误的，不能使用；在这里, 所以要使用esc下面的那个键`` */
+
+fakeConsole.innerHTML += "<p>This is a fake console, where we can output our information</p>"
