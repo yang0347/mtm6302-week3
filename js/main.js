@@ -37,7 +37,30 @@ for(let eachNode of allNodes){
  const mainNodes = document.getElementById("threeNodes") 
  console.log(mainNodes)  
 
+ // accessing the children property of the mainNodes variable 
 const listOfNodes = mainNodes.children
-listOfNodes[1].style.margin = "10 0"
+
+//selecting the second item and setting its styles
+listOfNodes[1].style.margin = "10px 0"
+
+const firstNode = mainNodes.firstElementChild
+console.log(firstNode.textContent)
+
+/* Attribute Methods */
+const learnMore = document.getElementById("learn")
+
+//geeting attrubute value 
+console.log(learnMore.getAttribute("href"))
+console.log(learnMore.getAttribute("class")) // option + shift
+
+//getting attribute value that is a property like id by using the property name
+console.log(learnMore.id)
+
+//setting attribute value
+learnMore.setAttribute("target","_blank")
+
+//class eg:点击 icon 明亮或暗下来 
+//adding a class using classList
+learnMore.classList.add('btn')
 
 
