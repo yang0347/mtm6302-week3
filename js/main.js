@@ -27,6 +27,16 @@ console.log(allNodes)
 //accessing the element on second position and setting its style. background (include color)
 allNodes[1].style.background = "cyan"
 
+for(let eachNode of allNodes){
+    //console.log(eachNode.textContent) looping through the allNodes array and assigning style.border to each items 
+    eachNode.style.border = "1px solid black"
+}
+
+ /* Traversing the DOM */
+ //finding the element by ID
+ const mainNodes = document.getElementById("threeNodes") 
+ console.log(mainNodes)  
+      
 
 
 
