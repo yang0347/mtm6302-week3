@@ -36,7 +36,8 @@ for(let eachNode of allNodes){
  //finding the element by ID
  const mainNodes = document.getElementById("threeNodes") 
  console.log(mainNodes)  
-      
 
+const listOfNodes = mainNodes.children
+listOfNodes[1].style.margin = "10 0"
 
 
