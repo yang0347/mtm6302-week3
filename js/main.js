@@ -14,8 +14,17 @@ console.dir(infoPara) // if console.log() shows us the string verson of the obje
 infoPara.textContent += "Abhay"
 
 // finding an element using CSS selector 
-
 let container = document.querySelector(".container")
+console.log(container)
+
+//using style object of an element
+container.style.maxWidth = "800px"
+container.style.margin = "0 auto"
+
+//finding all the elements using CSS selector
+let allNotes = document.querySelectorAll(".type")
+console.log(allNodes)
+
 
 
 
